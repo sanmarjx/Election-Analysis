@@ -27,7 +27,7 @@ The analysis of the election shows that:
   - Jefferson's turnout was 10.5% of the total vote with 38,855 votes
   - Denver's turnout was 82.8% of the total vote with 306,055 votes
   - Arapahoe's turnout was 6.7% of the total vote with 24,801 votes
-The county with the largest turnout was:
+- The county with the largest turnout was:
   - Denver
 - The candidates were:
   - Charles Casper Stockham
