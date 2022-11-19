@@ -41,5 +41,13 @@ The analysis of the election shows that:
   - Diana Degette, who received 73.8% of the vote and 272,892 number of votes.
   
 ## Election-Audit Summary  
-The results show that this script has worked great for the current election. It is a general and useful script that could be used as a template for any future elections. With just some small modifications you can adapt the script to audit any election. One of this modifications could be the location of the new data set. By changing the path to the election data file:  file_to_load = os.path.join("analysis", "election_results.csv"), we can acces other files with election data. If you wanted to use this script for a presidential election you could add state data in addition to the county data. For that you would need to add another loop to go through the data for each state to determine the winner of the election. You could also use this script to analyze more than just the outcome of an election. By adding rows to the data set with demographics data, you could determine the kind of voters that each candidate is attracting.
+The results show that this script has worked great for the current election. It is a functional and flexible script that could be used as a template for any future elections. With just some small modifications it can be adapted to audit any election. One of this modifications could be the location of the new data set. By changing the path to the election data file:  file_to_load = os.path.join("analysis", "election_results.csv"), it can acces other files with election data.
+
+![File to load image](https://user-images.githubusercontent.com/116690861/202831158-cde9b411-b228-4603-8327-5c23318a951c.png)
+
+If you wanted to use this script for a presidential election you could use state data instead of the county data. The code shown below could be easily modified to target a different region.
+
+![Loop Image](https://user-images.githubusercontent.com/116690861/202831317-6f739dc4-1310-451d-b865-e3c72763e950.png)
+
+The script could also analyze more than just the outcome of an election. By adding rows to the data set with demographics data, it could determine the kind of voters that each candidate is attracting.
 Because of all these reasons, this script is a great base template for any election.
