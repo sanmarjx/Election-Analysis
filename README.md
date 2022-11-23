@@ -1,7 +1,7 @@
 # Election-Analysis
 
 ## Overview of Election Audit
-A Colorado Borad of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Calculate the number of votes and the percentage of total votes for each county.
@@ -34,14 +34,14 @@ The analysis of the election shows that:
   - Diana Degette
   - Raymon Anthony Doane
 - The candidate results were:
-  - Charles Casper Stockham recieved 23% of the vote and 85,213 number of votes.
+  - Charles Casper Stockham received 23% of the vote and 85,213 number of votes.
   - Diana Degette received 73.8% of the vote and 272,892 number of votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
   - Diana Degette, who received 73.8% of the vote and 272,892 number of votes.
   
 ## Election-Audit Summary  
-The results show that this script has worked great for the current election. It is a functional and flexible script that could be used as a template for any future elections. With just some small modifications it can be adapted to audit any election. One of this modifications could be the location of the new data set. By changing the path to the election data file:  file_to_load = os.path.join("analysis", "election_results.csv"), it can acces other files with election data.
+The results show that this script has worked great for the current election. It is a functional and flexible script that could be used as a template for any future elections. With just some small modifications it can be adapted to audit any election. One of these modifications could be the location of the new data set. By changing the path to the election data file:  file_to_load = os.path.join("analysis", "election_results.csv"), it can access other files with election data.
 
 ![File to load image](https://user-images.githubusercontent.com/116690861/202831158-cde9b411-b228-4603-8327-5c23318a951c.png)
 
